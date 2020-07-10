@@ -1,0 +1,11 @@
+Cruiseferry|ABSK2
+Cruiseferry|ABSK3
+Double-ended|ABSK4
+Pontoon|ABSK6
+Pontoon|ABSK7
+Cable ferry|ABSK9
+Turntable|ABSK10
+Turntable|ABSK11
+Pontoon|ABSK12
+cruiser|ABSK14
+cruizer|ABSK15

@@ -1,0 +1,15 @@
+$||||||
+ABSK2|Turbo|Cruiseferry|Chennai|Goa|10|350
+ABSK3|Falcon|Cruiseferry|Mangalore|Goa|5|350
+$|Clam|Double-ended|Travancore|Cochin|8|200
+ABSK5|Clam|Catamaran|Goa|Cochin|13|250
+ABSK6|Lotus|Pontoon|Mangalore|Cochin|13|250
+$|Avenger|Pontoon|Goa|Mumbai|10|400
+ABSK8|Bounty|Catamaran|Chennai|West Bengal|12|450
+ABSK9|Dauntless|Cable ferry|Mumbai|Daman|3|150
+ABSK10|HMS-ABSK|Turntable|Mumbai|Goa|5|250
+ABSK11|Carpe Diem|Turntable|Mumbai|Chennai|15|350
+ABSK46|Hellsgate|cruize|CHENNAI|MUMBAI|12|450
+$|Airbender|Fire|Chennai|Antartica|2|999
+ABSK14|BNMIT|cruiser|RNSIT|BNMIT|15|45
+ABSK15|DOMINAR|cruizer|RNSIT|BNMIT|15|45

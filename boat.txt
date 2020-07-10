@@ -1,0 +1,20 @@
+ABSK1|Phantom|Catamaran|Chennai|Andaman|18|300
+ABSK2|Turbo|Cruiseferry|Chennai|Goa|10|350
+ABSK3|Falcon|Cruiseferry|Mangalore|Goa|5|350
+ABSK4|Clam|Double-ended|Travancore|Cochin|8|200
+ABSK5|Flame|Catamaran|GoaCochin|11|250
+ABSK6|Lotus|Pontoon|Mangalore|Cochin|13|250
+ABSK7|Avenger|Pontoon|Goa|Mumbai|10|400
+ABSK8|Bounty|Catamaran|Chennai|West Bengal|12|450
+ABSK9|Dauntless|Cable ferry|Mumbai|Daman|3|150
+ABSK10|HMS-ABSK|Turntable|Mumbai|Goa|5|250
+ABSK11|Shore|Catamaran|Chennai|Andaman|18|350
+ABSK12|Safe|Cruiseferry|Chennai|Puducherry|11|380
+ABSK13|Ruby|Cruiseferry|Mangalore|Goa|6|340
+ABSK14|Titanic|Double-ended|Travancore|Cochin|8|240
+ABSK15|Sea|Catamaran|GoaCochin|12|230
+ABSK16|Orange|Pontoon|Mangalore|Mumbai|13|210
+ABSK17|Captain|Pontoon|Goa|Mumbai|10|415
+ABSK18|Dominar|Catamaran|Chennai|West Bengal|12|445
+ABSK9|Royale|Cable ferry|WestBengal|Andaman|20|168
+ABSK20|HMS-AB46|Turntable|Mumbai|Kerala|5|289

@@ -1,0 +1,121 @@
+<fieldset>
+    <form action="" method="post" name="" style="text-align-last: center">
+ 
+    
+      <a colspan="2" align="center" valign="top" ><h3 >Add Details</h3></a><br><br>
+    
+    
+      <a align="right" valign="top" style="color: #3399ff">Boat-Id </a><br>
+      <input name="boatid" type="text" class="Input" placeholder="Enter the Boat-Id" required>
+      <br><br>
+      <a align="right" style="color:#3399ff">Boat Name </a><br>
+      <input name="boatname" type="text" class="Input" placeholder="Enter the Boat Name" required>
+      <br><br>
+      <a align="right" valign="top" style="color: #3399ff">Boat type</a><br>
+      <input name="boattype" type="text" class="Input" placeholder="Enter the Boat type" required>  
+      <br><br>
+      <a align="right" style="color:#3399ff">Source</a><br>
+      <input name="source" type="text" class="Input" placeholder="Enter the Source" required>
+      <br><br>
+      <a align="right" valign="top" style="color: #3399ff">Destination </a><br>
+      <input name="dest" type="text" class="Input" placeholder="Enter the Destination" required>
+      <br><br>
+      <a align="right" style="color:#3399ff">Duration</a><br>
+      <input name="duration" type="text" class="Input" placeholder="Enter the Duration" required>
+      <br><br>
+      <a align="right" style="color:#3399ff">Seats</a><br>
+      <input name="seats" type="text" class="Input" placeholder="Enter the Seats" required>
+      <br><br>
+
+      <input name="Submit" type="submit" value="Submit"  id= "submit" align="center" style="" class="Button3">
+      <span id="success_message" class ="text-success" ></span>
+    
+</form>
+
+</fieldset>
+
+</body>
+</html>
+
+
+
+<?php 
+  extract($_REQUEST);
+ 
+  $file=fopen("boat_details.txt","a");
+  if (!empty($boatid)) {
+  $boatid = $boatid;
+  fwrite($file,$boatid."|");
+}
+if (!empty($boatname)) {
+  $boatname = $boatname;
+  fwrite($file,$boatname."|");
+}
+
+if (!empty($boattype)) {
+  $boattype = $boattype;
+  fwrite($file,$boattype."|");
+}
+if (!empty($dest)) {
+  $dest = $dest;
+  fwrite($file,$dest."|");
+}
+if (!empty($source)) {
+  $source = $source;
+  fwrite($file,$source."|");
+}
+if (!empty($duration)) {
+  $duration = $duration;
+  fwrite($file,$duration."|");
+}
+if (!empty($seats)) {
+  $seats = $seats;
+  fwrite($file,$seats."\n");
+}
+
+  fclose($file);
+  $file=fopen("prime_dta.txt","a");
+  if (!empty($boatid)) {
+  $boatid = $boatid;
+  fwrite($file,$boatid."|");
+  $count=$count+1;
+  fwrite($file,$count."\n");
+  }
+   fclose($file);
+  $file=fopen("sec_dta.txt","a");
+  if (!empty($boattype)) {
+  $boattype = $boattype;
+  fwrite($file,$boattype."|");
+  fwrite($file,$boatid."\n");
+  }
+ 
+?> 
+
+
+ 
+<script>
+$document.ready(function(){
+    $('#submit').click(function () {
+        var boatid= $('boatid').val();
+        
+        if(boatid!='')
+        {
+            $('#error_message').html('');
+            $.ajax({
+                url:"add.php",
+                method:"POST"
+                data:{boatid:boatid},
+                success:function(data){
+                    $("form").trigger("reset");
+                    $('#success_message').fadeIn().html(data);
+                    
+                }
+            })
+        }
+    })
+}    
+
+
+
+
+</script>
