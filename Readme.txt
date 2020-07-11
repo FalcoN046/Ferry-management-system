@@ -1,5 +1,5 @@
 Ferry management System has been built using PHP Xampp as a part of 6th semester project for File structures.
-Ferry management System has ADMIN panel with CRUD featutes where the admin can add,delete and modify the ferrys.This project uses the principle of secondary indexong and has no SQL data.
+Ferry management System has ADMIN panel with CRUD featutes where the admin can add,delete and modify the ferries.This project uses the principle of secondary indexing and has no SQL data.
  steps :
  1.download the zip file
  2.extract the file
